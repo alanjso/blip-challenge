@@ -1,0 +1,44 @@
+{
+  "name": "blip-challenge",
+  "version": "1.0.0",
+  "description": "Desafio fluxo de conversa chatbot com integração da blip",
+  "main": "index.js",
+  "engines": {
+    "node": "20.18.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --watch src --exec ts-node ./src/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanjso/blip-challenge.git"
+  },
+  "author": "Alan Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanjso/blip-challenge/issues"
+  },
+  "homepage": "https://github.com/alanjso/blip-challenge#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "octokit": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.8.6",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
